@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:wght@100;200;300&family=Lobster&family=Oswald:wght@300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.softyFyClon{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    padding: 0 50px;  
+}
+.header ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+}
+.header ul li img{
+    height: 40px;
+    width: 40px;
+    
+}
+.header li span{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Song_list{
+  width: 70%;
+  height: 70vh;
+  background-color: black;
+  border-radius: 13px;
+  /* background-image: url(./img/bg.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+    padding: 30px;
+}
+.Song_list h1{
+    color: rgb(91, 72, 238);
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    text-align: justify;
+    font-family: "Lobster", sans-serif;
+
+}
+.song{
+    /* padding: 5px 0px; */
+    width: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 3px 10px;
+    gap: 15px;
+    border-radius: 33px;
+    margin-bottom: 10px;
+    /* box-shadow: -3px 0px 0px 3px rgba(255, 255, 255, 0.3); */
+}
+.song img{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+.song i{
+    cursor: pointer;
+}
+
+.footbar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+input{
+    width: 70%;
+    
+}
+.footbar{
+    /* width: 100%; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.leftItem{
+    width: 100%;
+    color: white;
+}
+.leftItem img{
+    position: absolute;
+    left: 15vw;
+    width: 70px;
+    height: 15px;
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+.leftItem p{
+    position: absolute;
+    left: 21vw;
+    letter-spacing: 3px;
+}
+.rightItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+}
+.rightItem i{
+    color: red;
+    font-size: 40px;
+    cursor: pointer;
+}

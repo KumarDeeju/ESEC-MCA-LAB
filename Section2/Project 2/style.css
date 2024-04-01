@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 80px;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: 18px;
+}
+
+.MenuBar{
+    position: absolute;
+    right: 50px;
+    display: block;
+}
+@media screen and (min-width:768px) {
+    .MenuBar{
+        display: none;
+    }
+}
+.logo img{
+    width: 90px;
+    height: 70px;
+    transition: all 0.3s;
+   cursor: pointer;
+}
+.logo img:hover{
+    width: 100px;
+    height: 80px;
+}
+.navbar{
+    position: absolute;
+    right: 50px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (max-width:768px) {
+    .navbar{
+        display: none;
+    }
+}
+.navItem{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.navItem p:hover{
+    color: #00cc66;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn button{
+    background-color: #00cc66;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: orangered;
+}
+
+.hero{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+
+}
+
+@media screen and (max-width:768px) {
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.hero_contener_left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.containerOne{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.containerOne h1{
+    color: #00cc66;
+    font-size: 50px;
+}
+.containerOne h2{
+    color: orangered;
+}
+
+.containerOne p{
+    letter-spacing: 2px;
+}
+
+.btn2 button{
+    background-color: #00cc66;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn2 button:hover{
+    background-color: orangered;
+}
